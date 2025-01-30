@@ -15,9 +15,44 @@
     .logo{
         padding: 10px 0 10px 20px;
     }
+        .logo img{
+            cursor: pointer;
+            width: 120px;
+        }
     .search{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
+            .search button img{
+                width: 30px;
+            }
+        
+            .search div img{
+                width: 30px;
+            }
+            .search div input{
+
+            }
     .profile{
         display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0 10px 0 0;
     }
+        .profile button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1f1f1f;
+            border: none;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+            .profile button img{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+            }

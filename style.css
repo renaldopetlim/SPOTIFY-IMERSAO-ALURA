@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -23,16 +25,49 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 30px;
     }
+        .search button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1f1f1f;
+            border: none;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
             .search button img{
+                background: none;
                 width: 30px;
             }
-        
+        .search div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
             .search div img{
-                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1f1f1f;
+                border-radius: 15px 0 0 15px;
+                width: 48px;
+                height: 48px;
+                padding: 0 10px 0 10px;
             }
             .search div input{
-
+                color: white;
+                font-family: "Open Sans", serif;
+                font-weight: 600;
+                font-size: 15px;
+                background-color: #1f1f1f;
+                border: none;
+                width: 370px;
+                height: 48px;
+                border-radius: 0 15px 15px 0;
+                padding: 0 10px 0 0;
             }
     .profile{
         display: flex;

@@ -5,3 +5,19 @@
     background-color: #000;
     scroll-behavior: smooth;
 }
+
+/* ---- */
+
+#header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+    .logo{
+        padding: 10px 0 10px 20px;
+    }
+    .search{
+        display: flex;
+    }
+    .profile{
+        display: flex;
+    }

@@ -107,3 +107,9 @@
     #lists h3{
         color: var(--text-color-gray);
     }
+    .recently img{
+        width: 56px;
+    }
+    .recently p{
+        color: var(--text-color-white);
+    }

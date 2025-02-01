@@ -107,9 +107,17 @@
     #lists h3{
         color: var(--text-color-gray);
     }
-    .recently img{
-        width: 56px;
+    .recently{
+        display: flex;
     }
-    .recently p{
-        color: var(--text-color-white);
-    }
+        .recently img{
+            width: 48px;
+            border-radius: 10px 0 0 10px;
+        }
+        .recently p{
+            display: flex;
+            align-items: center;
+            background-color: rgb(179, 179, 179, 0.2);
+            color: var(--text-color-white);
+            border-radius: 0 10px 10px 0;
+        }

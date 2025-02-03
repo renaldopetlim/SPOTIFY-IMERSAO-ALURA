@@ -153,3 +153,11 @@
                 background: transparent;
             }
 
+/* ---- FOR ME ---- */
+.for-me{
+    padding-top: 20px;
+}
+    .for-me h3{
+        color: var(--text-color-white);
+        font-size: 20px;
+    }

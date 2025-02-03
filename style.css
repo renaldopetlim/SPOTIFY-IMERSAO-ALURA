@@ -154,10 +154,10 @@
             }
 
 /* ---- DAILY MIX ---- */
-    .daily-mix{
+    .daily-mixes{
         padding-top: 20px;
     }
-        .daily-mix h3{
+        .daily-mixes h3{
             color: var(--text-color-white);
             font-size: 20px;
         }
@@ -168,7 +168,7 @@
             padding-top: 15px;
         }
                 .daily-cards div img{
-                    width: 145px;
+                    width: 166px;
                     border-radius: 10px;
                     padding-bottom: 5px;
                 }

@@ -181,3 +181,34 @@
                 .daily-cards div p{
                     color: var(--text-color-gray);
                 }
+                        .card-finaly{
+                            padding-bottom: 100px;
+                        }
+
+
+
+#player-fixed{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+    .song-playing{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 15px;
+        padding-left: 15px;
+    }
+        .song-playing div p, h3{
+            color: var(--text-color-white);
+        }
+        .cover{
+            width: 60px;
+        }
+        .add-to{
+            width: 20px;
+        }

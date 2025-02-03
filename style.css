@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root{
     --background-color: black;
@@ -12,7 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--background-color);
-    font-family: "Open Sans", serif;
+    font-family: "DM Sans", serif;
     scroll-behavior: smooth;
 }
 
@@ -125,46 +125,31 @@
             font-size: 14px;
             font-weight: 700;
         }
+                .active{
+                    background-color: var(--text-color-white);
+                    color: #000;
+                }
     .library-recently{
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         padding-bottom: 15px;
         gap: 10px;
     }
         .recently{
             display: flex;
+            background-color: var(--text-color-gray-with-opacity);
+            border-radius: 5px;
         }
             .recently img{
                 width: 48px;
+                border-radius: 5px 0 0 5px;
             }
             .recently p{
                 display: flex;
                 align-items: center;
-                background-color: var(--text-color-gray-with-opacity);
                 color: var(--text-color-white);
                 padding: 0 10px 0 10px;
                 font-weight: 700;
+                background: transparent;
             }
 
-
-
-
-
-
-/*    #lists h3{
-        color: var(--text-color-gray);
-    }
-    .recently{
-        display: flex;
-    }
-        .recently img{
-            width: 48px;
-            border-radius: 10px 0 0 10px;
-        }
-        .recently p{
-            display: flex;
-            align-items: center;
-            background-color: rgb(179, 179, 179, 0.2);
-            color: var(--text-color-white);
-            border-radius: 0 10px 10px 0;
-        }*/

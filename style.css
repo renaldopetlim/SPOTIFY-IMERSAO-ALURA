@@ -153,7 +153,7 @@
                 background: transparent;
             }
 
-/* ---- FOR ME ---- */
+/* ---- DAILY MIX ---- */
     .daily-mix{
         padding-top: 20px;
     }
@@ -163,7 +163,7 @@
         }
         .daily-cards{
             display: grid;
-            grid-template-columns: repeat(auto-fit, 1fr);
+            grid-template-columns: repeat(minmax(200px, 1fr));
             gap: 10px;
             padding-top: 15px;
         }

@@ -154,10 +154,24 @@
             }
 
 /* ---- FOR ME ---- */
-.for-me{
-    padding-top: 20px;
-}
-    .for-me h3{
-        color: var(--text-color-white);
-        font-size: 20px;
+    .daily-mix{
+        padding-top: 20px;
     }
+        .daily-mix h3{
+            color: var(--text-color-white);
+            font-size: 20px;
+        }
+        .daily-cards{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding-top: 15px;
+        }
+                .daily-cards div img{
+                    width: 164px;
+                    border-radius: 10px;
+                    padding-bottom: 5px;
+                }
+                .daily-cards div p{
+                    color: var(--text-color-gray);
+                }

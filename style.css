@@ -162,8 +162,8 @@
             font-size: 20px;
         }
         .daily-cards{
-            display: grid;
-            grid-template-columns: repeat(minmax(200px, 1fr));
+            display: flex;
+            justify-content: space-between;
             gap: 10px;
             padding-top: 15px;
         }

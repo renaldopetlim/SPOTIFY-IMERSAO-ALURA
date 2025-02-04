@@ -190,7 +190,7 @@
 #player-fixed{
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -211,4 +211,20 @@
         }
         .add-to{
             width: 20px;
+        }
+    .player-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+        .icons-player{
+            display: flex;
+            gap: 45px;
+            
+        }
+        .bar-player span{
+            color: white;
+            font-size: 12px;
         }

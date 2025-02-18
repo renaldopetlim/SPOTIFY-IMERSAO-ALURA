@@ -222,6 +222,7 @@
         }
         .add-to{
             width: 20px;
+            cursor: pointer;
         }
     .player-icons{
         display: flex;
@@ -234,6 +235,9 @@
             display: flex;
             gap: 45px;
         }
+            .icons-player img{
+                cursor: pointer;
+            }
         .bar-player span{
             color: white;
             font-size: 12px;

@@ -229,7 +229,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 10px;
     }
         .icons-player{
             display: flex;
@@ -238,7 +238,25 @@
             .icons-player img{
                 cursor: pointer;
             }
-        .bar-player span{
-            color: white;
-            font-size: 12px;
+        .player{
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
+            .time{
+                color: #505050;
+                font-size: 12px;
+            }    
+            .progress-bar{
+                background-color: #505050;
+                border-radius: 20px;
+                cursor: pointer;
+                height: 6px;
+                width: 450px;
+            }
+                .fill-bar{
+                    width: 0;
+                    height: 6px;
+                    border-radius: 20px;
+                    background: #1db954;
+                }

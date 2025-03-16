@@ -26,3 +26,13 @@ A estrutura do projeto é organizada da seguinte forma:
 - **Imagens**: Utilizadas para representar álbuns e playlists.
 
 Link: https://imercao-alura-spotify.netlify.app/
+
+## Contribuição:
+Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades!
+
+1. Faça um fork deste repositório.
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`).
+3. Faça as alterações necessárias.
+4. Faça um commit das suas mudanças (`git commit -am 'Adiciona nova funcionalidade'`).
+5. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
+6. Abra um Pull Request.
